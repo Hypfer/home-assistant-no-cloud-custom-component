@@ -3,5 +3,6 @@
   "name": "Home Assistant No Cloud",
   "documentation": "",
   "requirements": [],
-  "dependencies": []
+  "dependencies": [],
+  "codeowners": []
 }
