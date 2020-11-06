@@ -70,3 +70,17 @@ def handle_get_config(hass, connection, msg):
         current_config['components'].remove(DOMAIN)
 
     connection.send_message(websocket_api.result_message(msg["id"], current_config))
+
+
+@bind_hass
+@callback
+def async_active_subscription(hass) -> bool:
+    """Test if user has an active subscription."""
+    return False
+
+
+@bind_hass
+@callback
+def async_is_logged_in(hass) -> bool:
+    """Test if user is logged in."""
+    return False
