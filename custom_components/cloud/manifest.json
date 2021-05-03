@@ -4,5 +4,7 @@
   "documentation": "",
   "requirements": [],
   "dependencies": [],
-  "codeowners": []
+  "codeowners": [],
+  "version": "1.0.0",
+  "iot_class": "cloud_push"
 }
